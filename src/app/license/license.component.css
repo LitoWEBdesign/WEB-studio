@@ -1,0 +1,29 @@
+
+img {
+    text-align: right;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+ img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ 
+ img:hover{
+ -webkit-transform: scale(3);
+ -moz-transform: scale(3);
+ -o-transform: scale(3);
+ }
+
+.menu{
+    margin-left: 10px;
+}
+.image i{
+    font-weight: bold;
+    margin-left: 10px;
+}
+.image p{
+    text-decoration: underline;
+}

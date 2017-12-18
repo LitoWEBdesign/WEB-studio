@@ -1,0 +1,41 @@
+<div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 allrequest">
+    <h1>Поточні запити на підключення</h1>
+    <table class="redTable">
+      <thead>
+        <tr>
+          <th>Ім'я</th>
+          <th>Email</th>
+          <th>Компанія</th>
+          <th>Тип підключення</th>
+          <th>Текст повідомлення</th>
+          <th>Управління</th>
+        </tr>
+      </thead>
+      
+        <tr *ngFor="let requests of request">
+          <td>
+            {{requests.name}}
+          </td>
+          <td>
+            {{requests.mail}}
+          </td>
+          <td>
+             {{requests.company}}
+          </td>
+          <td>
+              {{requests.type}}
+          </td>
+          <td>
+              {{requests.text}}
+          </td>
+          <td>
+            <!--<button class="btn btn-default"  [class.defaultcolor]="defaultcolor" [class.btnclick]="btnclick" (click)="onSubmit()" >Стан</button> -->
+            <button class="btn btn-primary" (click)="deleteRequest(requests)">Видалити</button>
+          </td>
+        </tr>
+     
+      </table>
+   </div>
+
+</div>

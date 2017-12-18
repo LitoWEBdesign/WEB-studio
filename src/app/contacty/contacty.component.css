@@ -1,0 +1,65 @@
+h2{
+    color: blue;
+    text-align: center;
+}
+.total{
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+    text-align: center; 
+    font-weight: bold;
+
+}
+.irina{
+    width: 200px;
+    height: 80px;
+    background-color: beige;
+    margin:  20px 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.vitaly{
+    width: 200px;
+    height: 80px;
+    background-color:beige ;
+    margin:  20px 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.alex{
+    width: 200px;
+    height: 80px;
+    background-color:beige;
+    margin: 20px 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.names{ 
+    display: inline-flex;    
+}
+.sales{
+    background-color: aliceblue;
+    width: 100%;
+    height: 130px;
+}
+ h5{
+    text-align: center;
+}
+.device{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.lks{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.abon{
+    background-color: aliceblue;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}

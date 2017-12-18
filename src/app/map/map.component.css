@@ -1,0 +1,19 @@
+
+.city{
+    margin-left: 50px;
+    width: 140px;
+    height: auto;
+    margin-top: 20px;
+    
+}
+.col-md-10 h3{
+    text-align: center;
+    color: red;
+}
+ul{
+     list-style-image:  url("/assets/images/new.gif");
+}
+.image{
+   text-align: center;
+   border: 1px solid black;
+}

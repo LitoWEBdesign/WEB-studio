@@ -1,0 +1,17 @@
+.omni{
+    margin-left: 10px;
+    width: 50%;
+    height: auto;
+    
+}
+.allomni{
+    display: inline-flex;
+}
+h2,h4{
+    color:blue;
+}
+h5{
+    color: darkblue;
+    font-style: normal;
+    text-indent:initial;
+}

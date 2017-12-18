@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+a{
+    margin-left: 35px;
+}
+p  {
+    display: inline;
+}
+.col-md-10{
+    margin-left: 0px;
+}
+a:hover{
+    cursor: pointer;
+}

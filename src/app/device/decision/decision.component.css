@@ -1,0 +1,16 @@
+.device{
+    margin: 30px;
+    width: 100%;
+    height: auto;   
+}
+.alldevice{
+    margin-left: 200px;
+    display: inline-flex;
+}
+h3{
+    color: blue;
+}
+ul{
+    text-align: justify;
+    margin-left: 150px;
+}

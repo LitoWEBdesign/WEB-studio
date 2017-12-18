@@ -1,0 +1,28 @@
+<div class="row">  
+<div class="col-md-2 col-xs-2 col-sm-2 col-lg-2">
+<div class="menu">
+    <menuaboutcompany></menuaboutcompany>
+</div>
+<div class="city">
+    <details>
+        <summary>Місто Київ та Київська область</summary>
+        <ul > 
+            <li *ngFor="let city of cityArray">{{city}}</li>          
+        </ul>
+    </details>
+     <details>
+        <summary>Міста України</summary>
+        <ul>
+            <li *ngFor="let region of regionArray">{{region}}</li>
+            
+        </ul>
+    </details>
+</div>
+</div>
+<div class="col-md-10 col-xs-10 col-sm-10 col-lg-10">
+    <h3>м.Київ</h3>
+    <div class="image">
+     <img src="/assets/images/map-ukrcom.jpg"/>
+    </div>
+</div>
+</div>

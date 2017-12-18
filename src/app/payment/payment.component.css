@@ -1,0 +1,17 @@
+.image img{
+    width: 10%;
+    height: auto;
+}
+.image{
+    margin: 20px;
+   
+}
+h2{
+    color: blue;
+}
+img{
+    margin-right: 30px;
+}
+a{
+    margin-right: 30px;
+}

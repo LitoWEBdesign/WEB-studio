@@ -1,0 +1,65 @@
+<body>
+<div class="container mainpage">
+  <div class="row ">
+    <div class="col-md-12 col-lg-12 col-sm-12 col-sx-12">
+      <img src="/assets/images/logo.png" />
+      <div class="block">
+      <div id="phone">
+      <p >(044)205-55-55</p>
+      </div>
+    <div class="search">
+      <search></search>
+    </div>
+   </div>
+   <nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" (click)="toggleState()">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button> <!-- #1 -->
+            
+        </div>
+         <div class="collapse navbar-collapse" [ngClass]="{ 'in': isIn  }"> 
+            <ul class="nav navbar-nav">
+              <li><a routerLink="/aboutcompany" routerLinkActive="active">Про компанію</a></li>
+              <li><a routerLink="/aboutphone" routerLinkActive="active">Телефонний зв'язок</a></li>
+              <li><a routerLink="/aboutdata" routerLinkActive="active">Інтернет і передача данних</a></li>
+               <li><a routerLink="/mainpage"routerLinkActive="active" >Дата-Центр</a></li>
+               <li><a routerLink="/decision"routerLinkActive="active" >Обладнання</a></li>
+               <li><a routerLink="/payment"routerLinkActive="active" >Оплата послуг</a></li>
+               <li><a routerLink="/contacty"routerLinkActive="active" >Контакти</a></li>
+               <li><a routerLink="/sip"routerLinkActive="active" >SIP-послуга</a></li>
+            </ul>
+        </div> <!-- #2 -->
+    </div>
+</nav>
+    </div>
+  </div>
+</div>
+<div class="container content">
+ <diV id="sample-panel" class="theme-green" >
+    <router-outlet></router-outlet>
+</diV> 
+</div>
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+    <div class="foot">
+        <div class="one">
+          <span>Всі права захищені — © 2017 «УКРКОМ»</span>
+        </div>
+        <div class="two">
+          <span>04119, Київ, вул. Сім'ї Хохлових, 15, 3 поверх</span>
+          <span>(044) 205-55-55</span> <a href="mailto:info@ukr-com.net">info@ukr-com.net</a>
+        </div>
+        </div>
+        </div>
+    </div>
+  </div>
+</footer>
+</body>
+

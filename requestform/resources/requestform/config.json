@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"mail": {
+			"name": "mail",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "mail",
+			"order": 1
+		},
+		"company": {
+			"name": "company",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "company",
+			"order": 2
+		},
+		"type": {
+			"name": "type",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "type",
+			"order": 3
+		},
+		"text": {
+			"name": "text",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "text",
+			"order": 4
+		},
+		"color": {
+			"name": "color",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": false,
+			"id": "color",
+			"order": 5
+		}
+	}
+}

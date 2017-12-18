@@ -1,0 +1,16 @@
+.requestform{
+    width: 80%;
+    height: auto;
+    margin-left:200px;  
+    
+}
+h3{
+    text-align: center;
+}
+/* input.ng-valid[required] { */
+    /*border-left: 5px solid #42A948; /* green */
+  
+  
+/* input.ng-invalid{
+    border-left: 5px solid #a94442; /* red */
+   
